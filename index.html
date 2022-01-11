@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SnakeGame</title>
+	<link rel="icon" href="assest/snakegamelogo.png">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div class="body">
+
+    <div class="difficulty">
+      <center>
+        <input type="radio" name="choice" value="hard" id="choice-hard"> 
+        <label for="choice-hard">Hard</label>
+
+
+        <input type="radio" name="choice" value="medium" id="choice-medium">
+        <label for="choice-medium">Medium</label>
+
+
+        <input type="radio" name="choice" value="easy" id="choice-easy" checked>
+        <label for="choice-easy">Easy</label>
+        
+        <br>
+        <button id="btn"> Set Level </button>
+        </center>
+    </div>
+
+		<div id="scoreid">Score : 0</div>
+		<br>
+        <div id="sound">
+        Sound 🔉
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="myCheck" onclick="myFunction()">
+          <span class="slider round"></span>
+        </label>
+
+
+        
+
+        <div id="hiscoreid">Hi-Score: 0</div>
+        <div id="board">
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
